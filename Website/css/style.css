@@ -1,0 +1,757 @@
+/* Main Page */
+
+body {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #1b1b1f !important;
+    border-color: #33333b !important;
+}
+
+.navbar-brand {
+    color: #a78bfa !important;
+}
+
+.navbar .nav-link {
+    color: #f5f5f5 !important;
+}
+
+.navbar .nav-link:hover {
+    color: #a78bfa !important;
+}
+
+
+/* Hero Section */
+
+#home {
+    background-color: #121212;
+}
+
+#home h1 {
+    color: #f5f5f5;
+}
+
+#home h2 {
+    color: #a78bfa !important;
+}
+
+#home p {
+    color: #b8b8c0;
+}
+
+
+/* Purple Buttons */
+
+.btn-primary {
+    background-color: #8b5cf6;
+    border-color: #8b5cf6;
+}
+
+.btn-primary:hover {
+    background-color: #a78bfa;
+    border-color: #a78bfa;
+}
+
+
+/* About Section */
+
+#about {
+    background-color: #1b1b1f !important;
+}
+
+#about h2 {
+    color: #a78bfa;
+}
+
+#about p {
+    color: #b8b8c0 !important;
+}
+
+
+/* Projects Section */
+
+#projects {
+    background-color: #121212;
+}
+
+#projects h2 {
+    color: #a78bfa;
+}
+
+#projects .card {
+    background-color: #24242b;
+    color: #f5f5f5;
+    border: 1px solid #33333b;
+}
+
+#projects .card-footer {
+    background-color: #24242b !important;
+}
+
+#projects .card-text {
+    color: #b8b8c0;
+}
+
+
+/* Skills Section */
+
+#skills {
+    background-color: #1b1b1f !important;
+}
+
+#skills h2 {
+    color: #a78bfa;
+}
+
+#skills .card {
+    background-color: #24242b;
+    color: #f5f5f5;
+    border: 1px solid #33333b;
+}
+
+#skills .card-text {
+    color: #b8b8c0 !important;
+}
+
+
+/* Contact Section */
+
+#contact {
+    background-color: #121212;
+}
+
+#contact h2 {
+    color: #a78bfa;
+}
+
+#contact p {
+    color: #b8b8c0 !important;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #0a0a0c !important;
+}
+
+footer a {
+    color: #b8b8c0 !important;
+}
+
+footer a:hover {
+    color: #a78bfa !important;
+}
+
+/* Hero Improvements */
+
+.hero-section {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+.hero-intro {
+    color: #a78bfa;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.purple-text {
+    color: #8b5cf6;
+}
+
+.hero-description {
+    color: #b8b8c0;
+    max-width: 550px;
+}
+
+.btn-primary {
+    background-color: #8b5cf6;
+    border-color: #8b5cf6;
+}
+
+.btn-primary:hover {
+    background-color: #7c3aed;
+    border-color: #7c3aed;
+}
+
+.btn-outline-purple {
+    color: #a78bfa;
+    border: 2px solid #8b5cf6;
+}
+
+.btn-outline-purple:hover {
+    color: #ffffff;
+    background-color: #8b5cf6;
+    border-color: #8b5cf6;
+}
+
+.profile-image {
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #8b5cf6;
+    box-shadow: 0 0 35px rgba(139, 92, 246, 0.35);
+}
+
+/* =========================
+   Skills Section
+========================= */
+
+#skills {
+    background-color: #18181d !important;
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;
+}
+
+#skills h2 {
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+}
+
+#skills .text-secondary {
+    color: #9d9da8 !important;
+}
+
+
+/* =========================
+   Skills Accordion
+========================= */
+
+.skills-accordion {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.skills-accordion .accordion-item {
+    background-color: #222228;
+    border: 1px solid #34343d;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    overflow: hidden;
+
+    transition:
+        border-color 0.25s ease,
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+
+/* Hover Effect */
+
+.skills-accordion .accordion-item:hover {
+    border-color: #8b5cf6;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(139, 92, 246, 0.12);
+}
+
+
+/* Accordion Button */
+
+.skills-accordion .accordion-button {
+    background-color: #222228;
+    color: #f5f5f5;
+
+    font-size: 1.15rem;
+    font-weight: 600;
+
+    padding: 22px 24px;
+
+    box-shadow: none;
+}
+
+
+/* Open Accordion */
+
+.skills-accordion .accordion-button:not(.collapsed) {
+    background-color: #292335;
+    color: #a78bfa;
+    box-shadow: none;
+}
+
+
+/* Remove Bootstrap Focus Glow */
+
+.skills-accordion .accordion-button:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
+
+
+/* Accordion Arrow */
+
+.skills-accordion .accordion-button::after {
+    filter: invert(1);
+}
+
+.skills-accordion .accordion-button:not(.collapsed)::after {
+    filter:
+        invert(52%)
+        sepia(72%)
+        saturate(1500%)
+        hue-rotate(220deg);
+}
+
+
+/* Accordion Content */
+
+.skills-accordion .accordion-body {
+    background-color: #1e1e24;
+    border-top: 1px solid #34343d;
+    padding: 25px;
+}
+
+
+/* =========================
+   Skill Badges
+========================= */
+
+.skill-badge {
+    display: inline-block;
+
+    background-color: rgba(139, 92, 246, 0.10);
+    color: #c4b5fd;
+
+    border: 1px solid rgba(139, 92, 246, 0.45);
+
+    padding: 9px 16px;
+
+    border-radius: 50px;
+
+    font-size: 0.92rem;
+    font-weight: 500;
+
+    transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+
+/* Badge Hover */
+
+.skill-badge:hover {
+    background-color: rgba(139, 92, 246, 0.22);
+    border-color: #8b5cf6;
+    transform: translateY(-2px);
+}
+
+/* =========================
+   Project Cards
+========================= */
+
+.project-card {
+    background-color: #222228 !important;
+    color: #f5f5f5;
+
+    border: 1px solid #34343d;
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+
+/* Card Hover */
+
+.project-card:hover {
+    transform: translateY(-6px);
+    border-color: #8b5cf6;
+
+    box-shadow:
+        0 12px 35px rgba(0, 0, 0, 0.35),
+        0 0 25px rgba(139, 92, 246, 0.12);
+}
+
+
+/* Project Image */
+
+.project-image {
+    width: 100%;
+    height: 220px;
+
+    object-fit: cover;
+
+    border-bottom: 1px solid #34343d;
+}
+
+
+/* Card Content */
+
+.project-card .card-body {
+    padding: 25px;
+}
+
+.project-card .card-title {
+    color: #f5f5f5;
+
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    margin-bottom: 15px;
+}
+
+.project-card .card-text {
+    color: #b8b8c0;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+}
+
+
+/* Small Category Label */
+
+.project-type {
+    color: #a78bfa !important;
+
+    font-size: 0.72rem;
+    font-weight: 700;
+
+    letter-spacing: 1.4px;
+
+    margin-bottom: 8px;
+}
+
+
+/* Technology Badges */
+
+.project-badge {
+    background-color: rgba(139, 92, 246, 0.10);
+
+    color: #c4b5fd;
+
+    border: 1px solid rgba(139, 92, 246, 0.40);
+
+    border-radius: 50px;
+
+    padding: 6px 11px;
+
+    font-size: 0.78rem;
+    font-weight: 500;
+}
+/* =========================
+   Project Detail Page
+========================= */
+
+.project-page-hero {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    background-color: #121212;
+}
+
+.project-page-description {
+    color: #b8b8c0;
+    line-height: 1.7;
+    max-width: 600px;
+}
+
+.project-main-image {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 1px solid #34343d;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.4),
+        0 0 30px rgba(139, 92, 246, 0.12);
+}
+
+
+/* Project Sections */
+
+.project-section {
+    background-color: #121212;
+}
+
+.project-section-alt {
+    background-color: #18181d;
+}
+
+.project-section h2 {
+    color: #f5f5f5;
+}
+
+.project-page-text {
+    color: #b8b8c0;
+    line-height: 1.8;
+}
+
+
+/* Feature Cards */
+
+.project-feature {
+    background-color: #222228;
+    border: 1px solid #34343d;
+    border-radius: 12px;
+    padding: 25px;
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.project-feature:hover {
+    transform: translateY(-4px);
+    border-color: #8b5cf6;
+    box-shadow: 0 10px 30px rgba(139, 92, 246, 0.10);
+}
+
+.project-feature h4 {
+    color: #a78bfa;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.project-feature p {
+    color: #b8b8c0;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+
+/* Architecture */
+
+.architecture-layout {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.architecture-box {
+    background-color: #222228;
+
+    border: 1px solid #34343d;
+    border-left: 4px solid #8b5cf6;
+
+    border-radius: 12px;
+
+    padding: 25px 30px;
+}
+
+.architecture-box h4 {
+    color: #f5f5f5;
+    margin-bottom: 8px;
+}
+
+.architecture-box p {
+    color: #b8b8c0;
+    margin-bottom: 0;
+}
+
+.architecture-number {
+    display: block;
+
+    color: #8b5cf6;
+
+    font-size: 0.75rem;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+}
+
+.architecture-arrow {
+    color: #8b5cf6;
+
+    text-align: center;
+
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    padding: 8px 0;
+}
+
+.architecture-arrow span {
+    display: block;
+
+    color: #777780;
+
+    font-size: 0.65rem;
+
+    letter-spacing: 2px;
+}
+
+
+/* Large Technology Badges */
+
+.project-tech-large {
+    background-color: rgba(139, 92, 246, 0.10);
+
+    color: #c4b5fd;
+
+    border: 1px solid rgba(139, 92, 246, 0.45);
+
+    border-radius: 50px;
+
+    padding: 10px 18px;
+
+    font-size: 0.95rem;
+    font-weight: 500;
+
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.project-tech-large:hover {
+    transform: translateY(-2px);
+
+    background-color: rgba(139, 92, 246, 0.20);
+
+    border-color: #8b5cf6;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .project-page-hero {
+        min-height: auto;
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    .project-main-image {
+        height: 300px;
+    }
+
+}
+/* Project Page Navbar */
+
+.project-navbar {
+    background-color: #1b1b1f !important;
+    border-color: #33333b !important;
+}
+
+.project-navbar .navbar-brand {
+    color: #a78bfa !important;
+    font-size: 1.4rem;
+}
+
+.project-navbar .navbar-brand:hover {
+    color: #c4b5fd !important;
+}
+
+.back-link {
+    color: #b8b8c0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.back-link:hover {
+    color: #a78bfa;
+}
+
+/* Elevator Project Page */
+
+.project-page-hero {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+.project-page-hero h1 {
+    color: #f5f5f5;
+}
+
+.project-page-description {
+    color: #b8b8c0;
+}
+
+.project-section {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+.project-section-alt {
+    background-color: #1b1b1f;
+}
+
+.project-section h2 {
+    color: #f5f5f5;
+}
+
+.project-page-text {
+    color: #b8b8c0;
+}
+
+.section-label {
+    color: #8b5cf6 !important;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* Project Showcase Images */
+
+.project-showcase {
+    background-color: #222228;
+    border: 1px solid #34343d;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.project-showcase-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.project-showcase-caption {
+    padding: 22px 25px;
+}
+
+.project-showcase-caption h4 {
+    color: #a78bfa;
+    margin-bottom: 10px;
+}
+
+.project-showcase-caption p {
+    color: #b8b8c0;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Architecture Image */
+
+.architecture-image {
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+
+    background-color: #ffffff;
+
+    border-radius: 12px;
+    border: 2px solid #34343d;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.image-caption {
+    color: #8f8f99;
+    font-size: 0.9rem;
+}
