@@ -12,28 +12,54 @@
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-    <nav class="navbar navbar-expand-lg bg-light border-bottom">
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg border-bottom">
     <div class="container-fluid flex-column">
 
+        <!-- Brand name linked to the top/home -->
+        <a class="navbar-brand mb-2" href="#">
             Owen Kipp
         </a>
 
-        <ul class="navbar-nav flex-row gap-4 mb-2">
+        <!-- Navigation links with proper anchors and text styling -->
+        <ul class="navbar-nav flex-row flex-wrap justify-content-center gap-4 mb-2">
+
             <li class="nav-item">
-                Home</a>
+                <a class="nav-link" href="#home">
+                    Home
+                </a>
             </li>
 
             <li class="nav-item">
-                About</a>
+                <a class="nav-link" href="#about">
+                    About
+                </a>
             </li>
 
             <li class="nav-item">
-                Projects</a>
+                <a class="nav-link" href="#experience">
+                    Experience
+                </a>
             </li>
 
             <li class="nav-item">
-                Contact</a>
+                <a class="nav-link" href="#projects">
+                    Projects
+                </a>
             </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">
+                    Skills
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                    Contact
+                </a>
+            </li>
+
         </ul>
 
     </div>
@@ -66,14 +92,18 @@
                 </p>
 
                 <div class="d-flex gap-3 mt-4 flex-wrap">
-                    <a>
+                
+                    <!-- Project Button -->
+                    <a class="btn btn-primary" href="#projects">
                         View My Projects
                     </a>
-                    <a>
+                
+                    <!-- Contact Button -->
+                    <a class="btn btn-outline-secondary" href="#contact">
                         Contact Me
                     </a>
+                
                 </div>
-
             </div>
 
             <!-- Right Side -->
@@ -116,6 +146,175 @@
     </p>
 
             </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="experience-section py-5">
+    <div class="container">
+
+        <!-- Section Title -->
+        <div class="text-center mb-5">
+
+            <p class="section-label">
+                WHERE I'VE WORKED
+            </p>
+
+            <h2 class="fw-bold">
+                Experience
+            </h2>
+
+            <p class="text-secondary">
+                Hands-on engineering experience across automation,
+                manufacturing, and electrical systems.
+            </p>
+
+        </div>
+
+
+        <div class="experience-timeline">
+
+            <!-- Linamar -->
+            <div class="experience-item">
+
+                <div class="experience-dot"></div>
+
+                <div class="experience-card">
+
+                    <p class="experience-company">
+                        Linamar
+                    </p>
+
+                    <h3>
+                        Automation & Controls Electrical Engineer Co-op
+                    </h3>
+
+                    <p class="experience-description">
+                        Worked with industrial automation and controls,
+                        including robotic systems, PLC programming,
+                        HMI development, electrical controls, and
+                        automation system integration.
+                    </p>
+
+                    <div class="d-flex flex-wrap gap-2">
+
+                        <span class="experience-badge">
+                            ABB RobotStudio
+                        </span>
+
+                        <span class="experience-badge">
+                            Studio 5000
+                        </span>
+
+                        <span class="experience-badge">
+                            FactoryTalk View
+                        </span>
+
+                        <span class="experience-badge">
+                            PLC
+                        </span>
+
+                        <span class="experience-badge">
+                            HMI
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Skyjack -->
+            <div class="experience-item">
+
+                <div class="experience-dot"></div>
+
+                <div class="experience-card">
+
+                    <p class="experience-company">
+                        Skyjack
+                    </p>
+
+                    <h3>
+                        Manufacturing Engineer Co-op
+                    </h3>
+
+                    <p class="experience-description">
+                        Supported manufacturing engineering projects involving
+                        production analysis, process improvement, plant layouts,
+                        tooling, and mechanical design.
+                    </p>
+
+                    <div class="d-flex flex-wrap gap-2">
+
+                        <span class="experience-badge">
+                            SolidWorks
+                        </span>
+
+                        <span class="experience-badge">
+                            AutoCAD
+                        </span>
+
+                        <span class="experience-badge">
+                            Manufacturing
+                        </span>
+
+                        <span class="experience-badge">
+                            Process Improvement
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Eaton Canada -->
+            <div class="experience-item">
+
+                <div class="experience-dot"></div>
+
+                <div class="experience-card">
+
+                    <p class="experience-company">
+                        Eaton Canada
+                    </p>
+
+                    <h3>
+                        PBRc Technician Co-op
+                    </h3>
+
+                    <p class="experience-description">
+                        Worked with electrical distribution equipment,
+                        motor controls, circuit breakers, wiring,
+                        assembly, testing, and electrical troubleshooting.
+                    </p>
+
+                    <div class="d-flex flex-wrap gap-2">
+
+                        <span class="experience-badge">
+                            Electrical Systems
+                        </span>
+
+                        <span class="experience-badge">
+                            Motor Controls
+                        </span>
+
+                        <span class="experience-badge">
+                            Troubleshooting
+                        </span>
+
+                        <span class="experience-badge">
+                            Wiring
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+
         </div>
 
     </div>
@@ -180,29 +379,53 @@
 
 </div>
 
-            <!-- Project 2 -->
-            <div class="col-md-4">
-                <div class="card h-100 shadow-sm">
+<!-- Foosball Robot Project -->
+<div class="col-md-6 col-lg-4">
 
-                    images/project2.jpg
+    <div class="card project-card h-100">
 
-                    <div class="card-body">
-                        <h5 class="card-title">Project 2</h5>
+        Photos/Foosball/MainFoosball.jpg
 
-                        <p class="card-text">
-                            Add a description of another project you've worked
-                            on here.
-                        </p>
-                    </div>
+        <div class="card-body d-flex flex-column">
 
-                    <div class="card-footer bg-white border-0">
-                        #
-                            View Project
-                        </a>
-                    </div>
+            <p class="project-type">
+                ROBOTICS & EMBEDDED SYSTEMS
+            </p>
 
-                </div>
+            <h4 class="card-title">
+                Autonomous Foosball Robot
+            </h4>
+
+            <p class="card-text">
+                An autonomous foosball system that uses computer vision
+                to track gameplay, calculate ball interception points,
+                and control linear and rotational player movement.
+            </p>
+
+            <!-- Technology Badges -->
+            <div class="d-flex flex-wrap gap-2 mb-4">
+
+                <span class="project-badge">STM32</span>
+                <span class="project-badge">Raspberry Pi</span>
+                <span class="project-badge">OpenCV</span>
+                <span class="project-badge">UART</span>
+                <span class="project-badge">SolidWorks</span>
+                <span class="project-badge">MATLAB</span>
+
             </div>
+
+            <div class="mt-auto">
+            <a href="ProjectPages/foosballpage.html" class="btn btn-primary">
+            View Project
+            </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 
             <!-- Project 3 -->
             <div class="col-md-4">
@@ -455,17 +678,17 @@
                 <div class="d-flex justify-content-center gap-3 flex-wrap">
 
                     <!-- Email -->
-                    your-email@example.com
+                    <a href="mailto:owenkipp1210@gmail.com" class="btn btn-primary">
                         Email Me
                     </a>
 
                     <!-- GitHub -->
-                    https://github.com/your-username
+                    <a href="https://github.com/DreamExpress955"class="btn btn-outline-light"target="_blank"rel="noopener noreferrer">
                         GitHub
                     </a>
 
                     <!-- LinkedIn -->
-                    https://www.linkedin.com/in/your-profile
+                    <a href="https://www.linkedin.com/in/okippee" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">
                         LinkedIn
                     </a>
 
@@ -477,22 +700,40 @@
     </div>
 </section>
 
+<!-- Footer -->
 <footer class="bg-dark text-white py-4">
     <div class="container text-center">
 
-        <p class="mb-2">
+        <p class="mb-3 text-secondary">
             &copy; 2026 Owen Kipp. All rights reserved.
         </p>
 
-        <div>
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+
+            <a class="text-white text-decoration-none opacity-75 opacity-100-hover" href="#home">
                 Home
             </a>
+
+            <a class="text-white text-decoration-none opacity-75 opacity-100-hover" href="#about">
                 About
             </a>
+
+            <a class="text-white text-decoration-none opacity-75 opacity-100-hover" href="#experience">
+                Experience
+            </a>
+
+            <a class="text-white text-decoration-none opacity-75 opacity-100-hover" href="#projects">
                 Projects
             </a>
+
+            <a class="text-white text-decoration-none opacity-75 opacity-100-hover" href="#skills">
+                Skills
+            </a>
+
+            <a class="text-white text-decoration-none opacity-75 opacity-100-hover" href="#contact">
                 Contact
             </a>
+
         </div>
 
     </div>

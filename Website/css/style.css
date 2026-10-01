@@ -755,3 +755,159 @@ footer a:hover {
     color: #8f8f99;
     font-size: 0.9rem;
 }
+
+/* =========================
+   Experience Section
+========================= */
+
+.experience-section {
+    background-color: #121212;
+    color: #f5f5f5;
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;
+}
+
+.experience-section h2 {
+    color: #f5f5f5;
+    font-size: 2.5rem;
+}
+
+.experience-section .text-secondary {
+    color: #9d9da8 !important;
+}
+
+
+/* Timeline */
+
+.experience-timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 35px;
+}
+
+.experience-timeline::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 15px;
+    bottom: 15px;
+    width: 2px;
+    background-color: #34343d;
+}
+
+
+/* Experience Item */
+
+.experience-item {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.experience-item:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Timeline Dot */
+
+.experience-dot {
+    position: absolute;
+    left: -34px;
+    top: 28px;
+
+    width: 16px;
+    height: 16px;
+
+    background-color: #8b5cf6;
+
+    border: 3px solid #121212;
+    border-radius: 50%;
+
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.65);
+}
+
+
+/* Experience Card */
+
+.experience-card {
+    background-color: #222228;
+
+    border: 1px solid #34343d;
+    border-radius: 14px;
+
+    padding: 28px;
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-4px);
+
+    border-color: #8b5cf6;
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.3),
+        0 0 20px rgba(139, 92, 246, 0.10);
+}
+
+
+/* Company */
+
+.experience-company {
+    color: #a78bfa;
+
+    font-size: 0.85rem;
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    margin-bottom: 6px;
+}
+
+
+/* Job Title */
+
+.experience-card h3 {
+    color: #f5f5f5;
+
+    font-size: 1.35rem;
+    font-weight: 700;
+
+    margin-bottom: 15px;
+}
+
+
+/* Description */
+
+.experience-description {
+    color: #b8b8c0;
+
+    line-height: 1.7;
+
+    margin-bottom: 20px;
+}
+
+
+/* Experience Technology Badges */
+
+.experience-badge {
+    display: inline-block;
+
+    background-color: rgba(139, 92, 246, 0.10);
+
+    color: #c4b5fd;
+
+    border: 1px solid rgba(139, 92, 246, 0.40);
+
+    border-radius: 50px;
+
+    padding: 6px 12px;
+
+    font-size: 0.8rem;
+    font-weight: 500;
+}

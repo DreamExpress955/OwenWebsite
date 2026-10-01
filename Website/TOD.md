@@ -12,18 +12,18 @@
 
 ## Homepage
 
-- [ ] Fix navbar links
-- [ ] Fix View My Projects button
-- [ ] Fix Contact Me button
-- [ ] Fix footer links
-- [ ] Clean up broken HTML
+- [X] Fix navbar links
+- [X] Fix View My Projects button
+- [X] Fix Contact Me button
+- [X] Fix footer links
+- [X] Clean up broken HTML
 
 ## Experience
 
-- [ ] Create Experience section
-- [ ] Add Linamar
-- [ ] Add Skyjack
-- [ ] Add Eaton Canada
+- [X] Create Experience section
+- [X] Add Linamar
+- [X] Add Skyjack
+- [X] Add Eaton Canada
 
 ## Projects
 
@@ -35,9 +35,9 @@
 
 ## Contact
 
-- [ ] Add email
-- [ ] Add GitHub
-- [ ] Add LinkedIn
+- [X] Add email
+- [X] Add GitHub
+- [X] Add LinkedIn
 
 ## Testing
 
